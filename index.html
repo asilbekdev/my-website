@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Asilbek Normuminov, Frontend dasturchi" />
+    <meta
+      name="keywords"
+      content="Asilbek, Normuminov, Frontend, Kitob, HTML, CSS, JavaScript"
+    />
+    <meta name="author" content="Asilbek Normuminov" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" href="./Images/linkedin_profile_image.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Asilbek Normuminov</title>
+    <style>
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+      }
+
+      #myBtn:hover {
+        background-color: #222;
+      }
+
+      .largePadding {
+        padding: 90px 0 90px 0;
+      }
+
+      #middle #html5,
+      #css,
+      #js p {
+        line-height: 50px;
+        font-size: 20px;
+      }
+
+      #main-tech #bootstrap,
+      #mongodb,
+      #expressjs,
+      #react,
+      #nodejs p {
+        line-height: 50px;
+        font-size: 20px;
+      }
+
+      #demo img {
+        border-radius: 0;
+      }
+
+      #footer-bt a {
+        color: #999;
+      }
+
+      #footer a:hover {
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        padding-left: 10px;
+        transition: 0.4s ease-in-out;
+      }
+
+      #footer a:not(:hover) {
+        padding-left: 0;
+        transition: 0.4s ease-in-out;
+      }
+      ::selection {
+        background-color: #fff;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Sahifa boshiga">
+      <i class="fa fa-angle-up"></i>
+    </button>
+
+    <nav
+      class="navbar sticky-top navbar-expand-md navbar-dark px-5 top-fixed"
+      style="background-color: rgba(0, 0, 0, 0.9); padding: 20px"
+    >
+      <div class="container">
+        <a
+          style="font-family: 'Sriracha'; font-size: 25px"
+          class="navbar-brand"
+          href="https://t.me/kulrangim"
+          >Asilbek<span style="color: #2196f3; border-radius: 10px"
+            >Dev</span
+          ></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarCollapse"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Bosh sahifa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="techno.html">Texnologiyalar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Biz haqimizda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://wallpapercave.com/wp/wp1828913.jpg"
+            alt="Los Angeles"
+            width="100%"
+            height="610"
+          />
+          <div class="carousel-caption">
+            <h1>CODE IT. AND RELAX.</h1>
+            <p>Programming is thinking.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://wallpapertag.com/wallpaper/full/4/d/b/168044-top-quote-backgrounds-1920x1200.jpg"
+            alt="Chicago"
+            width="100%"
+            height="610"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i.pinimg.com/originals/f0/fb/41/f0fb41aaa7f6d9171c64814ddde3b9d8.png"
+            alt="New York"
+            width="100%"
+            height="610"
+          />
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <div id="middle" class="text-white">
+      <div class="container">
+        <h2 class="text-center mt-5" style="color: #2196f3">
+          Asosiy texnologiyalar
+        </h2>
+
+        <div id="html5" class="largePadding">
+          <div class="row">
+            <div class="col-md-6 text-center mb-3">
+              <i class="fa fa-html5 fa-5x"></i>
+            </div>
+            <div class="col-md-6 text-justify">
+              <p>
+                HTML - Hypertext Markup Language, gipermatnli markerlash tili.
+                Veb sahifalarni yasash uchun ishlatiladigan standart markerlash
+                tili, dasturlash tili emas. Boshqacha qilib aytadigan bo'lsak,
+                bu til veb sahifaning skeleti hisoblanadi. Muallifi - Tim
+                Berners Li.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="css" class="largePadding">
+          <div class="row">
+            <div class="col-md-6 text-center mb-3">
+              <i class="fa fa-css3 fa-4x"></i>
+            </div>
+            <div class="col-md-6 text-justify">
+              <p>
+                CSS - Cascading Style Sheets, veb sahifaga stil berish tili. CSS
+                veb sahifadagi elementlarning qanday ko'rinishini - rangini,
+                shriftini, o'lchamlarini, qayerda turishini aniqlash uchun
+                foydalaniladigan til. CSS veb sahifamizni chiroyli qilishda
+                bizga juda katta yordam bera oladi.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="js" class="largePadding">
+          <div class="row">
+            <div class="col-md-6 text-center mb-3">
+              <i class="fa fa-code fa-5x"></i>
+            </div>
+            <div class="col-md-6 text-justify">
+              <p>
+                JavaScript - qisqartmasi JS, ECMAScript spetsifikatsiyasiga mos
+                keladigan, 10 kunda ishlab chiqilgan dasturlash tili. JavaScript
+                yuqori darajadagi, just-in-time kompilyatsiya bo'ladigan,
+                multi-paradigmali til. HTML va CSS bilan bir qatorda WWWning
+                asosiy texnologiyalaridan biri. 1995-yil 4-dekabrda keng ommaga
+                taqdim etilgan. Muallifi - Brendn Eych.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="iqtibos" class="text-right text-white py-5 pr-3">
+      <div class="container">
+        <div class="row">
+          <h3 style="text-align: center">
+            <i
+              >"Hamma dasturlashni o'rganishi kerak. Chunki, u fikrlashni
+              o'rgatadi."
+            </i>
+          </h3>
+        </div>
+        <p class="pt-3" style="font-size: 18px">Stiv Jobs, Apple asoschisi</p>
+      </div>
+    </div>
+
+    <div id="main-tech" class="text-white">
+      <div class="container">
+        <h2 class="text-center py-5" style="color: #2196f3">
+          Boshqa texnologiyalar
+        </h2>
+
+        <div class="row largePadding">
+          <div id="bootstrap" class="py-5 col-xl-9">
+            <div class="row">
+              <div class="col-md-6 col-sm-6" style="font-size: 45px">
+                <a href="https://www.getbootstrap.com">Bootstrap</a>
+              </div>
+              <div class="col-md-6 col-sm-6 text-justify">
+                <p>
+                  Bootstrap - bepul, ochiq kodli, moslashuvchan, mobile-first
+                  veb-saytlarni qurish uchun mo'ljallangan, BootstrapCDN li
+                  dunyoning eng mashhur front-end freymvorki. 2011-yil
+                  19-avgustda chiqqan. HTML, CSS, Less, Sass va JavaScript da
+                  yozilgan. Mualliflari - Mark Otto va Yakob Tornton. MIT
+                  litsenziyasiga ega.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3"></div>
+        </div>
+
+        <div class="row largePadding">
+          <div class="col-xl-3"></div>
+          <div id="mongodb" class="py-5 col-xl-9">
+            <div class="row">
+              <div class="col-md-6 col-sm-6" style="font-size: 45px">
+                <a href="https://www.mongodb.com">MongoDB</a>
+              </div>
+              <div class="col-md-6 col-sm-6 text-justify">
+                <p>
+                  MongoDB - JavaScript, Node.js bilan yaxshi chiqishadi.
+                  Zamonaviy ilovalar uchun ma'lumotlar bazasi. MongoDB umumiy
+                  maqsadlarda foydalaniladigan, hujjatga asoslangan, bulutli era
+                  va ko'plab ilova dasturchilar uchun qurilgan, distributlashgan
+                  ma'lumotlar bazasi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row largePadding">
+          <div id="expressjs" class="py-5 col-xl-9">
+            <div class="row">
+              <div class="col-md-6 col-sm-6" style="font-size: 45px">
+                <a href="https://www.expressjs.com">Express.js</a>
+              </div>
+              <div class="col-md-6 col-sm-6 text-justify">
+                <p>
+                  Express.js - Node.js uchun tezkor, moslashuvchan, minimalistik
+                  veb-freymvork. Bunda ko'plab HTTP metodlar, oraliq qayta
+                  ishlovchi(middleware)lar yordamida, ishonchli tezkor va oson
+                  API server yaratish mumkin bo'ladi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3"></div>
+        </div>
+
+        <div class="row largePadding">
+          <div class="col-xl-3"></div>
+          <div id="react" class="py-5 col-xl-9">
+            <div class="row">
+              <div class="col-md-6 col-sm-6" style="font-size: 45px">
+                <a href="https://www.reactjs.org">React.js</a>
+              </div>
+              <div class="col-md-6 col-sm-6 text-justify">
+                <p>
+                  React.js - foydalanuvchi interfeyslari yoki UI
+                  komponentalarini qurish uchun foydalaniladigan ochiq kodli,
+                  front-end, JavaScript kutubxonasi. Muallifi - Jordan Walke.
+                  2013-yil 29-mayda chiqqan. MIT litsenziyasiga ega.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row largePadding">
+          <div id="nodejs" class="py-5 col-xl-9">
+            <div class="row">
+              <div class="col-md-6 col-sm-6" style="font-size: 45px">
+                <a href="https://www.nodejs.org">Node.js</a>
+              </div>
+              <div class="col-md-6 col-sm-6 text-justify">
+                <p>
+                  Node.js - JavaScriptni brauzerdan tashqarida ishlatib beruvchi
+                  muhit. Nodeda Express.js freymvorki yordamida API lar qurish
+                  imkoni yaratilgan. Back-endda keng qo'llaniladi. Hozirgi kunda
+                  rivojlanib bormoqda. PHP ning asosiy raqobatchisi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="newslatter" class="text-center py-5 text-white">
+      <div class="container">
+        <h1>Murojaat uchun</h1>
+        <p>
+          O'zingizni qiziqtirgan savol yuzasidan bizga murojaat qilishingiz
+          mumkin
+        </p>
+        <form class="form-group justify-content-center mt-4">
+          <input
+            type="text"
+            class="form-control mb-4"
+            placeholder="Ismingiz..."
+          />
+          <textarea
+            class="form-control"
+            rows="5"
+            id="comment"
+            name="text"
+            placeholder="Xabar qoldirishingiz mumkin..."
+          ></textarea>
+          <button class="btn btn-dark my-4 text-white">Jo'natish</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="footer" class="text-white mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <h3 style="color: #2196f3">Sayt haqida</h3>
+            <ul style="list-style-type: none; padding: 0; color: #fff">
+              <li>
+                <a href="#">Bosh sahifa</a>
+              </li>
+              <li>
+                <a href="techno.html">Texnologiyalar</a>
+              </li>
+              <li>
+                <a href="#iqtibos">Iqtiboslar</a>
+              </li>
+              <li>
+                <a href="about.html">Biz haqimizda</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <h3 style="color: #2196f3">Bog'lanish uchun</h3>
+            <ul style="list-style-type: none; color: #fff; padding: 0">
+              <li>
+                <a href="https://t.me/kulrangim">Telegram</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/asilbek.normuminov.1474"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/asilbekdev">Instagram</a>
+              </li>
+              <li>
+                <a href="https://www.github.com/asilbekdev">Github</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/asilbek-normuminov-4568711b8"
+                  >Linkedin</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8">
+            <p style="color: rgba(255, 255, 255, 0.7)" class="pt-4">
+              Copyright &copy; 2020 Veb sahifa Asilbek Normuminov tomonidan
+              ishlab chiqildi.
+            </p>
+          </div>
+          <div id="footer-bt" class="col-md-4 pt-4">
+            <a class="mr-3" href="https://t.me/asilbekdev">
+              <i class="fa fa-telegram"></i>
+            </a>
+            <a
+              class="mr-3"
+              href="https://www.facebook.com/asilbek.normuminov.1474"
+            >
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a class="mr-3" href="https://www.github.com/asilbekdev">
+              <i class="fa fa-github"></i>
+            </a>
+            <a class="mr-3" href="https://www.instagram.com/asilbekdev">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/asilbek-normuminov-4568711b8">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 400 ||
+          document.documentElement.scrollTop > 400
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <script src="./app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
